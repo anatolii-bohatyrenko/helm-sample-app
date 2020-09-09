@@ -15,7 +15,8 @@ repositories:
 #
 # Kubernetes
 #
-context: '{{ env "KUBE_CONTEXT" }}'
+helmDefaults:
+    kubeContext: anatolii-testing-cluster@codefresh-support
 
 #
 # Helm Releases
