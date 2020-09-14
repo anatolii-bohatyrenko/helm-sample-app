@@ -17,7 +17,7 @@ repositories:
 #
 
 helmDefaults:
-  kubeContext: {{ env "KUBE_CONTEXT" | default "anatolii-testing-cluster@codefresh-support" | squote }}
+  kubeContext: {{ env "KUBE_CONTEXT" | default "anatolii-testing@codefresh-support" | squote }}
 
 #
 # Helm Releases
