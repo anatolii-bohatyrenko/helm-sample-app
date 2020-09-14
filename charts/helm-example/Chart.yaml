@@ -7,6 +7,9 @@ repositories:
   url: https://kubernetes-charts.storage.googleapis.com
 - name: watson
   url: cm://h.cfcr.io/softteco/default
+- name: cf_variable
+  value: '{{ env "CF_API_KEY"}}'
+
 
 #
 # Kubernetes
