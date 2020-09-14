@@ -9,15 +9,15 @@ repositories:
 {{ if env "CHART_REPO_URL" }}
   # Local chart repo
   - name: "chart-repo"
-    url: cm://h.cfcr.io/softteco/default
+    url: '{{ env "CHART_REPO_URL" }}'
 {{ end }}
 
 #
 # Kubernetes
 #
+context: '{{ env "KUBE_CONTEXT" }}'
 
-helmDefaults:
-  kubeContext: {{ env "KUBE_CONTEXT" | default "anatolii-testing-cluster@codefresh-support" | squote }}
+
 
 #
 # Helm Releases
