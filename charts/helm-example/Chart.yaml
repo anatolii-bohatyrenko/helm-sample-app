@@ -7,8 +7,6 @@ repositories:
   url: https://kubernetes-charts.storage.googleapis.com
 - name: watson
   url: cm://h.cfcr.io/softteco/default
-
-arguments:
   STATE_VALUES_SET: HELM_REPO_ACCESS_TOKEN=$CF_API_KEY
 
 #
