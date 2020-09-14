@@ -8,7 +8,7 @@ repositories:
 - name: watson
   url: cm://h.cfcr.io/softteco/default
 
- arguments:
+arguments:
   STATE_VALUES_SET: HELM_REPO_ACCESS_TOKEN=$CF_API_KEY
 
 #
