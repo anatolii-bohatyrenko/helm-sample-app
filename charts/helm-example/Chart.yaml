@@ -2,6 +2,7 @@
 # Helm Chart Repositories
 #
 #To use official "stable" charts a.k.a https://github.com/helm/charts/tree/master/stable
+repositories:
 - name: stable
   url: https://kubernetes-charts.storage.googleapis.com
 - name: watson
