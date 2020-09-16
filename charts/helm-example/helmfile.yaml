@@ -8,12 +8,6 @@ repositories:
 - name: remote 
   url: cm://h.cfcr.io/softteco/default
 
-  #
-# Kubernetes
-#
-
-helmDefaults:
-  kubeContext: {{ env "KUBE_CONTEXT" | default "anatolii-testing@codefresh-support" | squote }}
 
 #
 # Helm Releases
