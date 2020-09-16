@@ -5,7 +5,7 @@
 repositories:
 - name: stable
   url: https://kubernetes-charts.storage.googleapis.com
-- name: default 
+- name: remote 
   url: cm://h.cfcr.io/softteco/default
 
   #
