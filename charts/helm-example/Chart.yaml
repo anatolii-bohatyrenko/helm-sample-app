@@ -5,9 +5,8 @@
 repositories:
 - name: stable
   url: https://kubernetes-charts.storage.googleapis.com
-- name: watson
+- name: default 
   url: cm://h.cfcr.io/softteco/default
-
 #
 # Kubernetes
 #
